@@ -31,6 +31,7 @@
 ?>
 </head>
 <body>
+    <p>fjhbgnjuiyhgbn</p>
     <header>
          <h1>TE forum</h1>
         <div class="logg">
