@@ -1,0 +1,56 @@
+header {
+    background-color: red;
+    padding: 0.5rem;
+
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    display: inline;
+}
+
+.logg {
+    display: flex;
+    float: right;
+}
+
+.loggin {
+    background-color: aqua;
+    padding: 0.5rem;
+    margin: 0.25rem;
+}
+
+.inlägg {
+    border: black solid 2px;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    margin-top: 1.5em;
+    padding: 2em;
+}
+
+main {
+    padding: 0.5rem;
+}
+
+.ya {
+    width: 75%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logg {
+        display: flex;
+        float: right;
+        flex-direction: column;
+
+    }
+
+    .ya {
+        width: 100%;
+    }
+
+
+}
